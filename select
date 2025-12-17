@@ -1,0 +1,10 @@
+#selest การเรียกดูข้อมูลในตาราง 
+A. เรียกดูข้อมูลทั้งหมดใน customers =>
+   select * from customers ;
+B. การเรียกข้อมูลเฉาพะคอลัมน์ที่ต้องการโดยใช้ , เป็นการคั่นระหว่างชื่อคอลัมน์ที่ต้องการเรียก =>
+   SELECT Address,City FROM Customers ;
+C. การเรียกข้อมูลที่ซ้ำกันให้แสดงแค่อันเดียว 
+   select distinct city from customers ;
+D. การเรียกดูข้อมูล ที่แตกต่างกัน โดนให้นับจำนวนทั้งหมดที่แตดต่าง =>
+   SELECT COUNT(DISTINCT Country) FROM Customers ;
+  
